@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+Name=HEIF Images
+X-KDE-ServiceTypes=ThumbCreator
+MimeType=image/heic;image/heif;
+X-KDE-Library=heifthumbnail
+CacheThumbnail=true
+ThumbnailerVersion=2
