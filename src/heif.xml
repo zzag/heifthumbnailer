@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+    <mime-type type="image/heif">
+        <comment>HEIF image</comment>
+        <comment xml:lang="de">HEIF-Bild</comment>
+        <magic priority="50">
+            <match value="heic" type="string" offset="8"/>
+        </magic>
+        <magic priority="50">
+            <match value="mif1" type="string" offset="8"/>
+        </magic>
+        <alias type="image/heic"/>
+    </mime-type>
+</mime-info>
